@@ -1,0 +1,18 @@
+<View>
+  <Image name="image" value="$image" zoom="true" zoomControl="true" rotateControl="true"/>
+
+  <Header value="Итоговая маска реки"/>
+  <BrushLabels name="tag" toName="image">
+    <Label value="river_water" background="#1E88E5"/>
+  </BrushLabels>
+
+  <Header value="Точки для Segment Anything"/>
+  <KeyPointLabels name="tag2" toName="image" smart="true">
+    <Label value="river_water" smart="true" background="#00A676" showInline="true"/>
+  </KeyPointLabels>
+
+  <Header value="Рамка для Segment Anything"/>
+  <RectangleLabels name="tag3" toName="image" smart="true">
+    <Label value="river_water" background="#FFB000" showInline="true"/>
+  </RectangleLabels>
+</View>

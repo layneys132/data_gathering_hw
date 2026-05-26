@@ -1,0 +1,10 @@
+python-dotenv
+label-studio-converter
+opencv-python-headless
+numpy
+torch
+torchvision
+mobile-sam @ git+https://github.com/ChaoningZhang/MobileSAM.git
+label-studio-ml @ git+https://github.com/HumanSignal/label-studio-ml-backend.git
+opencv-python
+timm
